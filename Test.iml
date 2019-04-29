@@ -46,9 +46,7 @@
       </library>
     </orderEntry>
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="library" name="melibrary.com.genuitec.eclipse.ws.xfire.MYECLIPSE_JAXWS_API" level="application" />
-    <orderEntry type="library" name="melibrary.com.genuitec.eclipse.ws.xfire.MYECLIPSE_METRO_IMPL" level="application" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="dom4j.jar">
         <CLASSES>
           <root url="file://D:/ecology8Demo/Weaver2016_base/Resin/lib/dom4j.jar" />
@@ -57,6 +55,15 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="weaver.jar" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
